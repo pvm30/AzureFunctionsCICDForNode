@@ -253,33 +253,6 @@
             "enabled": true,
             "continueOnError": false,
             "alwaysRun": false,
-            "displayName": "Security Check",
-            "timeoutInMinutes": 0,
-            "condition": "succeeded()",
-            "refName": "Npm4",
-            "task": {
-              "id": "fe47e961-9fa8-4106-8639-368c022d43ad",
-              "versionSpec": "1.*",
-              "definitionType": "task"
-            },
-            "inputs": {
-              "command": "custom",
-              "workingDir": "",
-              "verbose": "false",
-              "customCommand": "run security-check",
-              "customRegistry": "useNpmrc",
-              "customFeed": "",
-              "customEndpoint": "",
-              "publishRegistry": "useExternalRegistry",
-              "publishFeed": "",
-              "publishEndpoint": ""
-            }
-          },
-          {
-            "environment": {},
-            "enabled": true,
-            "continueOnError": false,
-            "alwaysRun": false,
             "displayName": "ESLint",
             "timeoutInMinutes": 0,
             "condition": "succeeded()",
