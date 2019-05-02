@@ -204,7 +204,7 @@
             "displayName": "Install Azure Functions Pack",
             "timeoutInMinutes": 0,
             "condition": "succeeded()",
-            "refName": "Npm2",
+            "refName": "Npm3",
             "task": {
               "id": "fe47e961-9fa8-4106-8639-368c022d43ad",
               "versionSpec": "1.*",
@@ -256,7 +256,7 @@
             "displayName": "Security Check",
             "timeoutInMinutes": 0,
             "condition": "succeeded()",
-            "refName": "Npm3",
+            "refName": "Npm4",
             "task": {
               "id": "fe47e961-9fa8-4106-8639-368c022d43ad",
               "versionSpec": "1.*",
@@ -283,7 +283,7 @@
             "displayName": "ESLint",
             "timeoutInMinutes": 0,
             "condition": "succeeded()",
-            "refName": "Npm4",
+            "refName": "Npm5",
             "task": {
               "id": "fe47e961-9fa8-4106-8639-368c022d43ad",
               "versionSpec": "1.*",
@@ -310,7 +310,7 @@
             "displayName": "azure funcpack",
             "timeoutInMinutes": 0,
             "condition": "succeeded()",
-            "refName": "Npm3",
+            "refName": "Npm6",
             "task": {
               "id": "fe47e961-9fa8-4106-8639-368c022d43ad",
               "versionSpec": "1.*",
